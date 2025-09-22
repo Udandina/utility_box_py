@@ -1,29 +1,81 @@
-# utility_box_py
-Simple_Python_Tools
-A beginner python utility project with maths, text, and file functions.
 
-# Text Utility Program
+# Python Utility Program
 
-This is a simple Python command-line program that allows users to perform basic text operations such as:
+This is a simple Python project that provides three categories of operations:
 
-- **Count Words**: Counts the number of words in a given text.
-- **Reverse Words**: Reverses the order of words in a sentence.
-- **Make Uppercase**: Converts all characters in the text to uppercase.
+1. **Text Utilities** → word count, reversing text, converting to uppercase  
+2. **Math Utilities** → add, subtract, multiply, divide  
+3. **File Utilities** → save text to a file, read text from a file  
 
----
-
-## Features
-1. Count the number of words in a sentence.
-2. Reverse the order of words.
-3. Convert text to uppercase.
-4. Simple menu-driven interface.
+The program is menu-driven and runs through the main entry point: `main.py`.
 
 ---
 
-## How to Run
-1. Make sure you have **Python 3** installed on your system.
-2. Save the code in a file, for example: `text_utils.py`
-3. Open a terminal or command prompt and run:
+## 📂 Project Structure
+```
 
-```bash
-python text_utils.py
+project/
+│
+├── main.py          # Entry point - asks user what they want to do
+├── text\_utils.py    # Text utility functions (count, reverse, uppercase)
+├── math\_utils.py    # Math utility functions (add, subtract, multiply, divide)
+└── file\_utils.py    # File utility functions (save text, read text)
+
+````
+
+---
+
+## 🚀 How to Run
+1. Make sure you have **Python 3.x** installed.  
+2. Clone or download this repository.  
+3. Open a terminal in the project folder.  
+4. Run the program:
+   ```bash
+   python main.py
+````
+
+---
+
+## 🛠 Features
+
+### Text Utilities
+
+* **Count Words** → returns number of words in a sentence
+* **Reverse Words** → reverses the order of words in text
+* **Make Uppercase** → converts text to uppercase
+
+### Math Utilities
+
+* **Add** → adds two numbers
+* **Subtract** → subtracts second number from first
+* **Multiply** → multiplies two numbers
+* **Divide** → divides first number by second (handles division by zero)
+
+### File Utilities
+
+* **Save to File** → writes text to a file
+* **Read File** → reads and displays contents of a file
+
+---
+
+## 📝 Example Run
+
+```
+what do you want to do? (text, math, file): text
+which operation? (count, reverse, uppercase): count
+Enter text: Hello World
+2
+```
+
+---
+
+## ✅ Requirements
+
+* Python 3.x
+* No external libraries required
+
+---
+
+
+
+
